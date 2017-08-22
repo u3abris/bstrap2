@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- This is where you would insert your own stylesheet if needed -->
+  <link rel="stylesheet" href="css/mystyles.css">
+<!-- Or we could use an internal style sheet -->
+<style>
+  .bg1 { background-color:lavender; }
+  .bg2 { background-color:lavenderblush; }
+  .bgpink { background-color:pink; }
+</style>
+<!-- Note: javascript libraries omitted at this stage since not used -->  
+</head>
+<body>
+
+<div class="jumbotron text-center" style="background-color: #1abc9c; color: white;">
+  <h1>Bootstrap Test Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+<div class="container-fluid">
+<!-- Three column row. Note how background-color classes bg1, bg2 and bgpink are used-->  
+  <div class="row">
+    <div class="col-sm-4 bg1">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+
+    <div class="col-sm-4 bg2">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    
+    <div class="col-sm-4 bg1">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  <!-- End of Row -->
+  </div>
+
+ <!-- Now a full width, single column row -->
+ <div class="row bgpink" style="padding: 50px;">
+   <p> This is a full width row.</p>
+ </div>
+
+  <!-- end container -->
+  </div>
+
+</body>
+</html>
